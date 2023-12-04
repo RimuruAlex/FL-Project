@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins.ttf);
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#b51f09,#d73c37, 	#ee6146, #dfbc5e,#e6e0ae);
+    color: white;
+    font-family: Poppins;
+}
+
+header {
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+
+
+.logos {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 5rem;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 3rem;
+}
+
+img {
+    width: 100px;
+}
+
+.hero-field {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+}
+
+h1 {
+    display: flex;
+    width: 500px;
+    font-size: 5rem;
+}
+
+h2 {
+    margin-left: 5rem;
+}
+
+
+
+.homeContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.homeHero > h2{
+    width: 700px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.profilePicture {
+    width: 500px;
+    height: 500px;
+    margin-left: 10rem;
+    border-radius: 50%;
+}
+
+.activitiesContainer {
+    display: flex;
+    gap: 7rem;
+    font-size: 3rem;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+nav, .activitiesContainer > * {
+    cursor: pointer;
+}
+
+.projectContainer {
+    display: flex;
+    gap: 7rem;
+    font-size: 3rem;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+nav, .projectContainer > * {
+    cursor: pointer;
+}
+
+/* CSS for the modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scrolling if needed */
+    background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+  }
+
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cute-images {
+    display: flex;
+    margin-right: 5rem;
+    margin-bottom: auto;
+   
+}
+
+.cute-images > img {
+    width: 300px;
+}
+
+.one, .three {
+    position: relative;
+    top: 170px;
+}
